@@ -1,12 +1,10 @@
 <template>
-  <transition name="fade">
-    <router-view/>
-  </transition>
+  <div>Search</div>
 </template>
 
 <script>
 export default {
-  name: 'Album'
+  name: 'Search'
 }
 </script>
 
