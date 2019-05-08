@@ -1,13 +1,16 @@
 import * as types from './mutation_types'
 
 export default {
-  [types.SET_USER_ID] (state, userId) {
+  [types.USER_ID] (state, userId) {
     state.userId = userId
   },
-  [types.SET_EMAIL] (state, email) {
+  [types.EMAIL] (state, email) {
     state.email = email
   },
-  [types.SET_NAME] (state, name) {
+  [types.NAME] (state, name) {
     state.name = name
+  },
+  [types.IS_AUTH] (state, isAuth) {
+    state.isAuth = isAuth
   }
 }

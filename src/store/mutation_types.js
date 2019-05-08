@@ -1,3 +1,4 @@
-export const SET_USER_ID = 'setUserId'
-export const SET_EMAIL = 'setEmail'
-export const SET_NAME = 'setName'
+export const USER_ID = 'userId'
+export const EMAIL = 'email'
+export const NAME = 'name'
+export const IS_AUTH = 'isAuth'

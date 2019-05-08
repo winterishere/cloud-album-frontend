@@ -9,7 +9,8 @@ Vue.use(Vuex)
 const state = {
   userId: '',
   email: '',
-  name: ''
+  name: '',
+  isAuth: false
 }
 
 export default new Vuex.Store({
