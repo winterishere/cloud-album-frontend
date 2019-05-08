@@ -18,6 +18,7 @@
     <v-content>
       <HelloWorld/>
     </v-content>
+    <v-footer dark>&copy; 2019 liks79 & ys.ahn</v-footer>
   </v-app>
 </template>
 
