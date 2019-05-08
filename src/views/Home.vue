@@ -13,9 +13,9 @@ export default {
     'Login': () => import('../components/Login')
   },
   computed: {
-    ...mapGetters(['getUserId']),
+    ...mapGetters(['getIsAuth']),
     whichOne () {
-      return (this.getUserId === '' ? 'Login' : 'Album')
+      return (this.getIsAuth === false ? 'Login' : 'Album')
     }
   }
 }
